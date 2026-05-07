@@ -29,8 +29,6 @@ A mobile tree shopping app built with **Kotlin + Jetpack Compose**, implementing
   </tr>
 </table>
 
-> 📁 Place your screenshots in `assets/screenshots/` and rename them to match the filenames above.
-
 ---
 
 ## 📁 Project Structure
