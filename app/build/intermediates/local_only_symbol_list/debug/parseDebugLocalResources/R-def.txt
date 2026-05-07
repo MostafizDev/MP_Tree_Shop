@@ -1,0 +1,15 @@
+R_DEF: Internal format may change without notice
+local
+mipmap ic_launcher
+string app_name
+string cart_title
+string clear_all
+string empty_bag_message
+string empty_bag_title
+string order_summary
+string proceed_to_checkout
+string shipping
+string shipping_free
+string start_shopping
+string total_label
+style Theme.TreeShop
