@@ -24,7 +24,7 @@ A mobile tree shopping app built with **Kotlin + Jetpack Compose**, implementing
     </td>
     <td align="center">
       <img src="assets/screenshots/profile_screen.jpeg" width="200" alt="Cart Screen"/>
-      <br/><sub><b>Profile Screen Screen</b></sub>
+      <br/><sub><b>Profile Screen</b></sub>
     </td>
   </tr>
 </table>
