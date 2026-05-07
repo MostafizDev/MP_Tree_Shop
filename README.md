@@ -1,6 +1,35 @@
 # 🌳 TreeShop — Kotlin Jetpack Compose
 
-A mobile tree shopping app built with **Kotlin + Jetpack Compose**, implementing a full product listing, detail view, and shopping cart experience.
+A mobile tree shopping app built with **Kotlin + Jetpack Compose**, implementing a full product listing, detail view experience.
+
+---
+
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/screenshots/splash_screen.jpeg" width="200" alt="Splash Screen"/>
+      <br/><sub><b>Splash Screen</b></sub>
+    </td>
+    <td align="center">
+      <img src="assets/screenshots/home_screen.jpeg" width="200" alt="Home Screen"/>
+      <br/><sub><b>Home Screen</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="assets/screenshots/details_screen.jpeg" width="200" alt="Product Detail"/>
+      <br/><sub><b>Product Detail</b></sub>
+    </td>
+    <td align="center">
+      <img src="assets/screenshots/profile_screen.jpeg" width="200" alt="Cart Screen"/>
+      <br/><sub><b>Cart Screen</b></sub>
+    </td>
+  </tr>
+</table>
+
+> 📁 Place your screenshots in `assets/screenshots/` and rename them to match the filenames above.
 
 ---
 
@@ -39,6 +68,12 @@ TreeShop/
 │           └── values/
 │               ├── strings.xml
 │               └── themes.xml
+├── assets/
+│   └── screenshots/                         ← 📸 Add your screenshots here
+│       ├── splash_screen.png
+│       ├── home_screen.png
+│       ├── product_detail.png
+│       └── cart_screen.png
 ├── build.gradle.kts
 ├── settings.gradle.kts
 └── gradle/
@@ -56,7 +91,7 @@ TreeShop/
 
 ### Steps
 1. Clone or unzip the project
-2. Open **Android Studio** → `File > Open` → select the `ShoeShop` folder
+2. Open **Android Studio** → `File > Open` → select the `TreeShop` folder
 3. Wait for Gradle sync to complete
 4. Connect an Android device or start an emulator (API 24+)
 5. Press **▶ Run** (`Shift+F10`)
@@ -69,8 +104,8 @@ TreeShop/
 |---|---|
 | Splash Screen | Animated brand intro |
 | Home Screen | Grid of products + category filter chips + hero banner |
-| Product Detail | rating, description |
-| Add to Bag |
+| Product Detail | Rating, description |
+| Add to Bag | Add items directly from detail view |
 | Navigation | Jetpack Navigation Compose with back stack |
 | State Management | `CartViewModel` with `StateFlow` |
 
